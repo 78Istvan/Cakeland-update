@@ -207,6 +207,10 @@ body {
   width: 25%;
   height: auto;
 }
+.phone {
+  height: 25px;
+  width: 25px;
+}
 .social {
   width: 26%;
   height: auto;
