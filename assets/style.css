@@ -42,8 +42,17 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.dropdown:hover .portfolio {
-  color: #484d38;
+.portfolio:hover {
+  background-color: #e6e6e7;
+}
+.drop:hover {
+  font-size: 18px;
+}
+.drop1:hover {
+  font-size: 18px;
+}
+.drop2:hover {
+  font-size: 18px;
 }
 
 /* under navigation bar box*/
