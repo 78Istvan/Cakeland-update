@@ -68,14 +68,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
 }
-.contact-tile {
-  border: 1px solid rgb(221, 221, 209);
-  width: 750px;
-  height: 130px;
-}
-/* contact tiles*/
+/*contact tiles*/
 .contact-tiles {
   display: flex;
   flex-direction: column;
@@ -83,6 +77,48 @@ body {
   align-items: center;
   gap: 25px;
 }
+.contact-tile {
+  display: flex;
+  flex-direction: row;
+
+  border: 1px solid rgb(221, 221, 209);
+  width: 750px;
+  height: 130px;
+}
+.address1 {
+  width: 65%;
+  height: auto;
+}
+.address2 {
+  width: 35%;
+  height: auto;
+  background-image: url(https://img.freepik.com/premium-photo/stack-sweet-french-cake-macaron-macaroon-with-vintage-pastel-colored-tone_253984-6181.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.mail-container {
+  display: flex;
+  flex-direction: row;
+}
+.mail1 {
+  width: 45%;
+  height: auto;
+  background-image: url(https://media.istockphoto.com/id/941915938/photo/flying-cake-macaron-or-macaroon-on-turquoise-pastel-background-colorful-almond-cookies.jpg?s=170667a&w=0&k=20&c=FbwmU-KpZHK32NxvuZQ2UT6o67isOXHx_NU5JlGrMnU=);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.mail2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  height: auto;
+  font-size: large;
+}
+.mail-text {
+  text-align: center;
+}
+/* contact tiles*/
 /* footer head line*/
 .footer-section-head {
   display: flex;
