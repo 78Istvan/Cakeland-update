@@ -43,18 +43,14 @@ body {
   display: block;
 }
 .portfolio:hover {
-  background-color: #e6e6e7;
+  text-shadow: 2px 2px 5px rgb(84, 84, 81);
 }
 .drop:hover {
   font-size: 18px;
 }
-.drop1:hover {
-  font-size: 18px;
+.drop {
+  line-height: 8px;
 }
-.drop2:hover {
-  font-size: 18px;
-}
-
 /* under navigation bar box*/
 .under-navbar-line {
   display: flex;
