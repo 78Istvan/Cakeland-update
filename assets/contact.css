@@ -1,0 +1,143 @@
+body {
+  padding: 0;
+  display: block;
+  background-color: #f7f2f2;
+  margin: 0 auto;
+}
+/* top navigation flex box*/
+.top-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid red;
+  gap: 60px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+.nav-item {
+  text-decoration: none;
+  color: rgb(60, 57, 57);
+}
+.portfolio {
+  color: rgb(60, 57, 57);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.portfolio:hover {
+  text-shadow: 2px 2px 5px rgb(84, 84, 81);
+}
+.drop:hover {
+  font-size: 18px;
+}
+.drop {
+  line-height: 8px;
+}
+/* under navigation bar box*/
+.under-navbar-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-message-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+/* contact text container*/
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.contact-tile {
+  border: 1px solid rgb(221, 221, 209);
+  width: 750px;
+  height: 130px;
+}
+/* contact tiles*/
+.contact-tiles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+/* footer head line*/
+.footer-section-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 1760px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.footer {
+  background-color: rgb(211, 200, 186);
+}
+.address {
+  width: 26%;
+  height: auto;
+}
+.address-text {
+  padding-left: 35px;
+}
+
+.email {
+  width: 25%;
+  height: auto;
+}
+
+.mail-phone {
+  margin-top: 5px;
+}
+.social {
+  width: 26%;
+  height: auto;
+}
+.facebook {
+  height: 25px;
+  width: 25px;
+}
+.instagram {
+  height: 25px;
+  width: 25px;
+}
+/*copyright*/
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1760px;
+  margin: 0 auto;
+}
+
+.copyright-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  color: #f7f2f2;
+  width: 77%;
+  background-color: rgb(71, 69, 67);
+}
