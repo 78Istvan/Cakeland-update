@@ -88,6 +88,7 @@ body {
 .address1 {
   width: 65%;
   height: auto;
+  background-color: rgb(244, 231, 210);
 }
 .address2 {
   width: 35%;
@@ -114,9 +115,28 @@ body {
   width: 55%;
   height: auto;
   font-size: large;
+  background-color: rgb(244, 231, 210);
 }
 .mail-text {
   text-align: center;
+}
+.social-container {
+  display: flex;
+}
+.social1 {
+  width: 80%;
+  height: auto;
+  background-image: url(https://media.istockphoto.com/id/941915938/photo/flying-cake-macaron-or-macaroon-on-turquoise-pastel-background-colorful-almond-cookies.jpg?s=170667a&w=0&k=20&c=FbwmU-KpZHK32NxvuZQ2UT6o67isOXHx_NU5JlGrMnU=);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.social2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: auto;
+  background-color: rgb(244, 231, 210);
 }
 /* contact tiles*/
 /* footer head line*/

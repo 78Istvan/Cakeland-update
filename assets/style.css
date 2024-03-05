@@ -42,7 +42,7 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.portfolio:hover {
+.nav-item:hover {
   text-shadow: 2px 2px 5px rgb(84, 84, 81);
 }
 .drop:hover {
