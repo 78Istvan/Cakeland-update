@@ -83,12 +83,15 @@ body {
 
   border: 1px solid rgb(221, 221, 209);
   width: 750px;
-  height: 130px;
+  height: 170px;
 }
 .address1 {
   width: 65%;
   height: auto;
   background-color: rgb(244, 231, 210);
+}
+.address-text {
+  line-height: 1.5rem;
 }
 .address2 {
   width: 35%;
@@ -104,7 +107,7 @@ body {
 .mail1 {
   width: 45%;
   height: auto;
-  background-image: url(https://media.istockphoto.com/id/941915938/photo/flying-cake-macaron-or-macaroon-on-turquoise-pastel-background-colorful-almond-cookies.jpg?s=170667a&w=0&k=20&c=FbwmU-KpZHK32NxvuZQ2UT6o67isOXHx_NU5JlGrMnU=);
+  background-image: url(https://www.shutterstock.com/image-photo/green-birthday-cupcake-copy-space-600nw-250774261.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -119,6 +122,7 @@ body {
 }
 .mail-text {
   text-align: center;
+  line-height: 1.5rem;
 }
 .social-container {
   display: flex;
