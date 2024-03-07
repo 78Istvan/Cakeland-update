@@ -57,35 +57,73 @@ body {
 }
 .el--1 {
   background-color: blueviolet;
+  background-image: url(https://img.freepik.com/premium-photo/white-birthday-cake-with-candles-blue-background-blank-empty-space_795881-56.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .el--2 {
-  background-color: orangered;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(221, 221, 209);
+  background-color: rgb(244, 231, 210);
   width: 500px;
+}
+.under-logo-text {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  padding: 0 0 25px 0;
+  margin: 0;
 }
 .el--3 {
   background-color: green;
+  background-image: url(https://as2.ftcdn.net/v2/jpg/05/76/40/05/1000_F_576400559_bHHvQiN3QCFUGrFrxtnX3NkzPgv3XDXY.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 1px solid rgb(221, 221, 209);
 }
 .el--4 {
-  background-color: goldenrod;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(241, 168, 172);
   grid-column: 2 / 3;
   grid-row: 2/ 6;
   width: 500px;
+  justify-content: center;
+  border: 1px solid rgb(221, 221, 209);
+}
+.el---1 {
+  width: 10%;
+}
+.el---2 {
+  width: 80%;
+}
+.el---3 {
+  width: 10%;
 }
 .el--5 {
   background-color: palevioletred;
+  background-image: url(https://www.shutterstock.com/image-photo/happy-birthday-cake-600nw-561721861.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .el--6 {
   background-color: steelblue;
+  background-image: url(https://img.freepik.com/premium-photo/colorful-birthday-cake-pastel-background-sweet-delicious-happy-birthday-cake-copy-space-celebration-concept-selective-focus-ai-generated_99272-5127.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-
-.container--1 {
+.first-flavour-list {
   /* STARTER */
-  font-family: sans-serif;
-  background-color: #ddd;
-  font-size: 40px;
-  margin: 40px;
+
+  margin-bottom: 30px;
   width: 1500px;
   height: auto;
+
+  /*grid*/
   display: grid;
   grid-template-columns: 200px 200px;
   grid-template-rows: 200px 200px 200px 200px;
@@ -97,7 +135,6 @@ body {
   flex-direction: row;
   justify-content: center;
   max-width: 1760px;
-  margin: 0 auto;
   margin-top: 25px;
 }
 .footer {
