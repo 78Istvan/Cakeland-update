@@ -82,7 +82,7 @@ body {
   flex-direction: row;
 
   border: 1px solid rgb(221, 221, 209);
-  width: 750px;
+  width: 65%;
   height: 170px;
 }
 .address1 {
@@ -188,8 +188,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1760px;
-  margin: 0 auto;
+  width: 85%;
 }
 
 .copyright-text {
