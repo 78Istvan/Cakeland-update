@@ -1,3 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  /*font-size: 10px; */
+  /*10 px / 16px = 0.625 = 62.5%*/
+  font-size: 62.5%;
+}
 body {
   padding: 0;
   display: block;
@@ -11,22 +21,25 @@ body {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid red;
-  gap: 60px;
+  gap: 6rem;
+  max-width: 100%;
 }
 .nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
+  height: 4rem;
 }
 .nav-item {
   text-decoration: none;
   color: rgb(60, 57, 57);
+  font-weight: 400;
+  font-size: 15px;
 }
 .portfolio {
   color: rgb(60, 57, 57);
-  padding: 16px;
-  font-size: 16px;
+  padding: 1.6rem;
+  font-size: 1.6rem;
   border: none;
 }
 .dropdown-content {
@@ -35,7 +48,7 @@ body {
 }
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 1.2rem 1.6rem;
   text-decoration: none;
   display: block;
 }
@@ -46,7 +59,7 @@ body {
   text-shadow: 2px 2px 5px rgb(84, 84, 81);
 }
 .drop:hover {
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 .drop {
   line-height: 8px;
@@ -56,26 +69,28 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
 }
 .first-message-block {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
+  height: 4rem;
+  font-size: 12px;
 }
 /* top 3 tiles flex box*/
 .top3-tiles {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 10px;
-  max-width: 1760px;
+  gap: 1rem;
+  max-width: 176rem;
   margin: 0 auto;
 }
 /*tile 1*/
 .tile1 {
   background-color: rgb(148, 113, 180);
-  height: 550px;
+  height: 55rem;
   width: 25%;
   background-image: url(https://t3.ftcdn.net/jpg/01/05/02/72/360_F_105027238_xgNXdCYGBRBLHMW1ZAObt20mYr8QXQwK.jpg);
   background-repeat: no-repeat;
@@ -87,7 +102,7 @@ body {
   justify-content: center;
   flex-direction: column;
   background-color: rgb(244, 231, 210);
-  height: 550px;
+  height: 55rem;
   width: 25%;
 }
 .main-logo {
@@ -102,11 +117,12 @@ body {
 }
 .text {
   text-align: center;
+  font-size: 12px;
 }
 /*tile3*/
 .tile3 {
   background-color: rgb(138, 187, 197);
-  height: 550px;
+  height: 55rem;
   width: 25%;
   background-image: url(https://png.pngtree.com/background/20230823/original/pngtree-airborne-treats-green-glazed-doughnuts-with-sprinkles-on-pastel-background-in-picture-image_4788080.jpg);
   background-repeat: no-repeat;
@@ -118,14 +134,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1760px;
+  max-width: 176rem;
   margin: 0 auto;
 }
 .middle-message {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
+  height: 4rem;
+  font-size: 12px;
 }
 /*middle main block*/
 
@@ -133,21 +150,21 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 10px;
-  max-width: 1760px;
+  gap: 1rem;
+  max-width: 176rem;
   margin: 0 auto;
 }
 .main-block1 {
   background-color: antiquewhite;
   width: 38%;
-  height: 250px;
+  height: 25rem;
   background-image: url(https://media.istockphoto.com/id/1131330399/photo/confectioner-woman-making-delicious-cream-for-cupcakes.jpg?s=612x612&w=0&k=20&c=vUVlu8HuyZtKQiP6hFKO-CFUeO2a47ALrh9j-ya-bzk=);
 }
 
 .main-block2 {
   background-color: antiquewhite;
   width: 38%;
-  height: 250px;
+  height: 25rem;
   background-image: url(https://media.istockphoto.com/id/914432518/photo/macarons-in-different-colors-space-for-copy.jpg?s=612x612&w=is&k=20&c=QJevXsWI1xl9wbnp2Es1sPpL3BHmMzqqW4aub9lbq1k=);
   background-repeat: no-repeat;
 
@@ -159,14 +176,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1760px;
+  max-width: 176rem;
   margin: 0 auto;
 }
 .second-message {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
+  height: 4rem;
+  font-size: 12px;
 }
 
 /* bottom design images*/
@@ -175,55 +193,22 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 12px;
-  margin-bottom: 40px;
-  max-width: 1760px;
+  gap: 1.2rem;
+
+  max-width: 176rem;
   margin: 0 auto;
+  margin-bottom: 4rem;
 }
 
 .bottom-img {
-  width: 155px;
-  height: 155px;
+  height: 11.5rem;
+  width: 11.5rem;
   background-color: rgb(72, 108, 108);
 }
-.img1 {
-  height: 155px;
-  width: 155px;
-}
-.img2 {
-  background-image: url(https://scontent-dub4-1.xx.fbcdn.net/v/t39.30808-6/276155742_2176752459145975_7822743125171840604_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=otZGZJFug08AX-QdbTn&_nc_ht=scontent-dub4-1.xx&oh=00_AfA987ttP44kmp3igDxrnIhdc6AgtyTTzBweCv7rWpY2Sw&oe=65E72384);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-.img3 {
-  background-image: url(https://scontent-dub4-1.xx.fbcdn.net/v/t31.18172-8/12967903_598524650302105_6347007231343538914_o.jpg?stp=dst-jpg_p843x403&_nc_cat=108&ccb=1-7&_nc_sid=4dc865&_nc_ohc=DPB0Qoit_igAX9-fOCU&_nc_ht=scontent-dub4-1.xx&oh=00_AfB7tFWk-kSW8Lt8K8lKnwlBL-upiyatkJcNssDiWx6DWQ&oe=6609B1C4);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-.img4 {
-  background-image: url(https://scontent-dub4-1.xx.fbcdn.net/v/t31.18172-8/14884468_697353643752538_3238668324357227477_o.jpg?stp=dst-jpg_p843x403&_nc_cat=106&ccb=1-7&_nc_sid=4dc865&_nc_ohc=U_yCFi7cm84AX9L5vh1&_nc_ht=scontent-dub4-1.xx&oh=00_AfCBe-5NB9xNmXdYnjfohUg1XLal949zR_y0huO88YRwqQ&oe=6609D1E5);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-.img5 {
-  background-image: url(https://scontent-dub4-1.xx.fbcdn.net/v/t39.30808-6/282017420_2227358320752055_7064564534304208467_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a73e89&_nc_ohc=t_g2CglavHYAX8PfP4s&_nc_ht=scontent-dub4-1.xx&oh=00_AfDcvL-zbgW2YB6PiBGdfB8DMxyBdooHVViK465Np2eQTQ&oe=65E7B1C0);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-.img6 {
-  background-image: url(https://www.cakenchilldxb.ae/cdn/shop/products/drip-cake-pastel-birthday-cakecake-n-chill-dubai-462588.jpg?v=1658310653);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-.img7 {
-  background-image: url(https://img.pikbest.com/wp/202346/birthday-cake-candle-pastel-with-3-3d-rendering-of-party-celebration-on-blue-background-copy-space_9734752.jpg!bw700);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-.img8 {
-  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/024/107/480/small_2x/3d-render-top-view-of-beautiful-fruit-cake-on-pastel-purple-and-orange-grunge-background-photo.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+
+.img-size {
+  height: 100%;
+  width: 100%;
 }
 /* testimonial section*/
 .slick-next:before,
@@ -241,11 +226,11 @@ body {
 
 .slider-container {
   text-align: center;
-  padding: 10px;
+  padding: 1rem;
   display: inline-block;
   /* 9.16 / 11.11 / 13.33 */
   font-size: 11.11px;
-  width: 400px;
+  width: 40rem;
 }
 
 .testimonials_headline {
@@ -254,19 +239,21 @@ body {
 }
 
 .testimonials_logo {
-  height: 100px;
-  width: 100px;
+  height: 10rem;
+  width: 10rem;
   border-radius: 50%;
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
 }
 
 .slider_testimonials {
   display: flex;
   flex-direction: row;
-  width: 600px;
+  width: 60rem;
   justify-content: center;
 }
-
+.text1 {
+  font-size: 15px;
+}
 .objects {
   text-align: center;
   font-size: 11.11px;
@@ -277,7 +264,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  max-width: 1760px;
+  max-width: 176rem;
   margin: 0 auto;
 }
 .footer {
@@ -288,35 +275,43 @@ body {
   height: auto;
 }
 .address-text {
-  padding-left: 35px;
+  padding-left: 3.5rem;
+  font-size: 15px;
 }
 
 .email {
   width: 25%;
   height: auto;
 }
-
+.text2 {
+  font-size: 15px;
+}
+.ph-fill {
+  height: 0.5rem;
+  width: 0.2rem;
+}
 .mail-phone {
-  margin-top: 5px;
+  margin-top: 0.5rem;
+  font-size: 15px;
 }
 .social {
   width: 26%;
   height: auto;
 }
 .facebook {
-  height: 25px;
-  width: 25px;
+  height: 2.5rem;
+  width: 2.5rem;
 }
 .instagram {
-  height: 25px;
-  width: 25px;
+  height: 2.5rem;
+  width: 2.5rem;
 }
 /*copyright*/
 .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1760px;
+  max-width: 176rem;
   margin: 0 auto;
 }
 
@@ -328,4 +323,7 @@ body {
   color: #f7f2f2;
   width: 77%;
   background-color: rgb(71, 69, 67);
+}
+.copyright1 {
+  font-size: 12px;
 }
